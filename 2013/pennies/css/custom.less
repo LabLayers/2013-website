@@ -1,0 +1,245 @@
+/* vars */
+@gold:     #D1BF1F;
+@goldLt:   #e0c40b;
+@goldDk:   darken(@gold, 16%);;
+@silver:   #8F8F8F;
+@silverDk: darken(@silver, 16%);;
+@bronze:   #8D5B33;
+@bronzeDk: darken(@bronze, 16%);;
+@wafer:    #502F83;
+/* base */
+body {
+  background: @goldLt;
+  color: #fffff0;
+  text-shadow: none;
+  font-size: 16px;
+  background-image: url(../img/noise.png);
+}
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: none;
+  text-align: center;
+}
+h1, h2 {
+  font-family: Oswald, Impact, Arial;
+  letter-spacing: 2px;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+h2 {
+  font-size: 60px;
+}
+svg {
+  margin-bottom: -.5em;
+}
+::selection {
+  background: @wafer;
+  color: white;
+  text-shadow: 0 0 2px white;
+}
+hr {
+  animation: widen .5s 2s ease both;
+  transform-origin: center;
+  -webkit-animation: widen .5s 2s ease both;
+  -webkit-transform-origin: center;
+  margin: 20px auto 40px;
+  width: 80%;
+  border-top: 2px solid;
+}
+/* sections */
+header, section, footer {
+  padding: 20px 0px;
+  margin: 0px;
+  position: relative;
+  z-index: 100;
+  font-size: 1.3em;
+  .lead {
+    text-align: center;
+    font-size: 24px;
+  }
+}
+.wrap {
+  padding: 40px 0px;
+}
+header .container {
+  animation: bounceDown .5s 0s ease both;
+  transform-origin: top left;
+  -webkit-animation: bounceDown .5s 0s ease both;
+  -webkit-transform-origin: top left;
+  h1 {
+    text-shadow: 2px 2px @bronze, 3px 3px @silver, 0px 0px 2px @silver;
+  }
+  p.lead {
+      text-shadow: 0 0 2px @bronze;
+      font-size: 36px;
+  }
+}
+section#procedures {
+  background: none;
+  padding: 0px;
+  animation: googlenow1 .4s 1s ease both;
+  transform-origin: top left;
+  -webkit-animation: googlenow1 .4s 1s ease both;
+  -webkit-transform-origin: top left;
+  z-index: 200;
+  .wrap {
+    background: @silverDk;
+    color: white;
+  }
+  ul {
+    list-style: none;
+    padding: 0px;
+    position: relative;
+    li {
+      padding: 16px 0px;
+      span {
+        position: absolute;
+        margin-left: -40px;
+        line-height: 30px;
+        width: 30px;
+        display: block;
+        text-align: center;
+        font-family: Oswald;
+        border-radius: 30px;
+        background: black;
+        color: white;
+        font-size: 14px;
+        box-shadow: 0 0 0 3px white;
+        transition: all .32s ease;
+      }
+      i {
+        display: block;
+      }
+    }
+    li:first-child {
+      padding-top: 0px;
+    }
+    li:last-child {
+      padding-bottom: 0px;
+    }
+    li:hover span {
+      background: white;
+      color: black;
+      box-shadow: 0 0 0 3px black;
+    }
+  }
+  ul:before {
+    position: absolute;
+    height: 100%;
+    background: white;
+    content: '';
+    left: -27px;
+    top: 0px;
+    width: 3px;
+  }
+}
+section#chemicals, section#lab, section#pennies {
+  position: relative;
+  height: 20em;
+  background-size: cover;
+  box-shadow: inset 0 0 80px black;
+  text-shadow: 0 0 4px black;
+  h2 {
+    text-shadow: 0 0 4px black;
+  }
+}
+section#chemicals {
+  background-image: url(../img/chemicals.png);
+  margin-top: -55px;
+  box-shadow: inset 0 0 80px black;
+}
+section#lab {
+  background-image: url(../img/lab.png);
+}
+section#pennies {
+  background-image: url(../img/pennies.png);
+  background-position: center;
+}
+section#colors, section#metals, section#alloy, section#alloys, section#more {
+  padding-bottom: 40px;
+
+}
+section#colors {
+  background: @bronze;
+}
+section#metals {
+  background: @goldLt;
+}
+section#alloy {
+  background: @silverDk;
+}
+section#alloys {
+  background: @bronze;
+  .examples {
+  .make-row();
+    article {
+      .make-md-column(4);
+    }
+  }
+}
+section#more {
+  background: @goldLt;
+}
+footer {
+  background: #ecf0f1;
+  color: rgba(0,0,0,.3);
+  line-height: 1.5;
+  text-align: center;
+  z-index: 200;
+  hr {
+    border-color: rgba(0,0,0,0.3);
+  }
+  a {
+    color: rgba(0,0,0,.3);
+    padding: 6px 12px;
+    border: 1px solid rgba(0,0,0,.3);
+    margin: 12px 0px;
+    display: inline-block;
+  }
+  a:hover {
+    color: black;
+    border-color: black;
+  }
+}
+/* mobile */
+@media all and (max-width: @screen-xs-max) {
+}
+/* svg hacks */
+#clouds path {
+  fill: #ecf0f1;
+  stroke: #ecf0f1;
+}
+svg {
+  background: none;
+  z-index: 9000;
+}
+#wafer {
+  background: @wafer;
+  color: white;
+}
+/* seperators from codrops */
+.zag::before, .zag::after {
+  right: 0;
+  left: 0;
+  z-index: 10;
+  display: block;
+  height: 50px;
+  background-size: 50px 100%;
+  content: '';
+}
+.zag::before {
+  top: -90px;
+  background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, transparent), color-stop(0.25, @silverDk));
+  background-image:
+    linear-gradient(315deg, @silverDk 25%, transparent 25%),
+    linear-gradient( 45deg, @silverDk 25%, transparent 25%);
+  background-position: 50%;
+}
+.zag::after {
+  top: 100%;
+  background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, #3498db), color-stop(0.25, @silverDk));
+  background-image: 
+    linear-gradient(135deg, @silverDk 25%, transparent 25%),
+    linear-gradient(225deg, @silverDk 25%, transparent 25%);
+  background-position: 50%;
+}

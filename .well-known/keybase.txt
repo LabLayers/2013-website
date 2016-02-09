@@ -1,0 +1,70 @@
+==================================================================
+https://keybase.io/victor
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://victorlourng.com
+  * I am victor (https://keybase.io/victor) on keybase.
+  * I have a public key with fingerprint 7FFD 8DB8 4CF5 A12A A903  FD64 53C7 AE4E 151E E2FC
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "7ffd8db84cf5a12aa903fd6453c7ae4e151ee2fc",
+            "host": "keybase.io",
+            "key_id": "53C7AE4E151EE2FC",
+            "uid": "9c47e33bcd23d37997c1040ec7c1ba00",
+            "username": "victor"
+        },
+        "service": {
+            "hostname": "victorlourng.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1396118246,
+    "expire_in": 157680000,
+    "prev": "56f9f3e5329a7e914a6d652347a030a88fdb7a4cbbc4f46f6e382a663d875e8b",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owGbwMvMwMV43NF8BjNLoxDj6QOfkxiCzYWeVSsl5adUKllVK2Wngqm0zLz01KKC
+osy8EiUrJfO0tBSLlCQLk+Q000RDo8RESwPjtBQzE1PjZPPEVJNUQ1PD1FSjtGQl
+HaWM/GKQDqAxSYnFqXqZ+UAxICc+MwUoamrsbO7oauIKVO/qauTmDJQrBUtYJpuY
+pxobJyWnGBmnGJtbWponGxqYGKQmA+mkRAMDkMLi1KK8xNxUoOqyzOSS/CKlWh0l
+oBiQkwpyMchiFPmc/NKivHS95PxcoO6CovyS/OT8HKBsRklJgRVIc0llAUh1eWpS
+PNSc+KTMvBSgz4EaylKLijPz85SsDIEqk0syQQYbGluaGRpaGJmY6SilVhRkFqXG
+Z4JUmJqbWRgAAcia1DKQP83SLNOMU02NjSwTzVMtDU0SzVLMTI2MTcwTDYwNEi0s
+0lKSzBNNkpOSkk3STMzSzFKNLYwSzcyMUyzMTVMtkpRAPivMy1eyMgY6MzEdaGRx
+ZnpeYklpUapSbSeTDAsDIxcDGysTKO4YuDgFYDEq8pv/f+qUZ67TdrW9DbTmmpJ4
+SPJjKovQqbNpewU1ZNv/ssd1JTh+EVibPVnRxL9/xhnNdY1THNOmO0v//K2XXvR4
+8ZPYrfLid64oVfH/jYx1OLzpYWSTbb/Ppzmze6PdY+4GP5fiPPRzV+LpW093LhFV
+Ul3/QHWu4OHTEtucD18+8udE4JGVzhq7GpYwnl2172b9Ag/rZ+esuN4bn/bU2h2x
+8Izw7UVSodr7uh1+itROfK6ue/nmxeuHiyd+2qGp9VhgsdTZwPV7V+wvmPYpOYPj
+zCHuIyIh/Vsk/Dq+2cUrFgTO6OTac43jIE+BvKDwa66snIVmKpLy0lOK/KIEQ1I4
+JW8uf3P/sv26JzsS5hdwaaySv8Vn+iZIiXmfQ8e5BeENdvsvq+yeLr7tqLmegqhO
+9jJvy6ncNxfUbVC87vHSePuM3lWTDzeZRPTK+CsIajTnxO+UXl5v0Nt/RNPG60S6
+nb/mZqtNB63PFv6e9pfBcm3EPpucVb/89igrfcnzE1qsPO3dL+u/3/6sE89ukV46
+O1xrm3qMxcbagGmOZvfVxWvvvJaL+nXDxEnyerTgdb7zdSuyP2vorGDf9epW5v+F
+PL2rvvk1cGY+VDAUYJy/S8wr2HOGOoPw5QqJv88apVsyOxYV55x+M+fUij8nhUMv
+cLQbp0x4VZ21dXu6tXj97dzwsv91eYseCi+P2dTySFPGWvCLQqvE6ketmwPvAgA=
+=Uh2p
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/victor
+
+==================================================================

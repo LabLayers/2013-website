@@ -1,0 +1,7 @@
+	HeaderName header.html
+	ReadmeName footer.html
+	IndexStyleSheet "/2013/theme/style.css"
+
+	IndexIgnore .htaccess /header.html
+	IndexIgnore .htaccess /footer.html
+	IndexIgnore .htaccess /screenshot.png
